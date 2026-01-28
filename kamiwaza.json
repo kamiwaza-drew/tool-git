@@ -1,0 +1,37 @@
+{
+  "name": "tool-git-mcp",
+  "version": "1.0.0",
+  "kamiwaza_version": ">=0.9.0",
+  "source_type": "kamiwaza",
+  "visibility": "public",
+  "description": "Git operations tool for repository management. Enables AI models to clone, read, write, commit, branch, and push changes to Git repositories.",
+  "category": "development",
+  "tags": [
+    "tool",
+    "git",
+    "version-control",
+    "repository",
+    "development"
+  ],
+  "author": "Kamiwaza",
+  "license": "MIT",
+  "image": "kamiwazaai/tool-git-mcp",
+  "risk_tier": 1,
+  "verified": false,
+  "capabilities": [
+    "git_operations",
+    "file_management",
+    "repository_access"
+  ],
+  "required_env_vars": [],
+  "env_defaults": {
+    "PORT": "8000",
+    "MCP_PORT": "8000",
+    "MCP_PATH": "/mcp",
+    "GIT_WORKSPACE_ROOT": "/app/workspace",
+    "GIT_AUTHOR_NAME": "Kamiwaza Bot",
+    "GIT_AUTHOR_EMAIL": "bot@kamiwaza.ai",
+    "GIT_COMMITTER_NAME": "Kamiwaza Bot",
+    "GIT_COMMITTER_EMAIL": "bot@kamiwaza.ai"
+  }
+}
